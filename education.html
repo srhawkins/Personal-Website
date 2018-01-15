@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles/main.css">
-  <title>Shawn Hawkins</title>
+  <title>Education</title>
 </head>
 <body>
-  <nav class="navbar">
 
+  <nav class="navbar">
 
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
@@ -21,57 +21,55 @@
       </a>
     </span>
 
-
-
-
     <ul class="navbar-nav">
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="education.html">Education</a></li>
+      <li><a href="#">Education</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
 
   <div id="side-menu" class="side-nav">
     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    <a href="#">Home</a>
+    <a href="index.html">Home</a>
     <a href="#">About</a>
-    <a href="education.html">Education</a>
+    <a href="#">Education</a>
     <a href="#">Contact</a>
   </div>
 
-  <div class="wrap">
-    <div id="arrow-left" class="arrow"></div>
-      <div id="slider">
-        <div class="slide slide1">
-          <div class="slide-content">
-            <span>Courageous</span>
-          </div>
-        </div>
-        <div class="slide slide2">
-          <div class="slide-content">
-            <span>Confident</span>
-          </div>
-        </div>
-        <div class="slide slide3">
-          <div class="slide-content">
-            <span>Clarion</span>
-          </div>
-        </div>
 
+
+  <section id="boxes">
+    <div class="container">
+      <h1 class="heading">Clarion University of Pennsylvania</h1>
+      <div class="box">
+        <img src="img/physics.jpg">
+        <h3>Physics</h3>
+        <p>First and formost, my major is in physics with a concentration
+        in astrophysics</p>
       </div>
-      <div id="arrow-right" class="arrow"></div>
-  </div>
-
-<div class="container">
-  <h1>My name is Shawn Hawkins,</h1>
-  <p>and this is my personal website.
-    I created this to act as a showcase/resume for my web development potential. This website is hosted through GitHub and Still in the very early version of production
-  </p>
-</div>
+      <div class="box">
+        <img src="img/math.jpg">
+        <h3>Mathematics</h3>
+        <p>Mathematics is the lauguage of the universe.
+        it goes hand in hand with physics to model the
+        universe around us an make accurate predictions.
+        this is one of my minors on my degree.</p>
+      </div>
+      <div class="box">
+        <img src="img/CS.jpg">
+        <h3>Computer Science</h3>
+        <p>Computer science is a big interest of mine.
+          Originaly I took the intro progamming class
+          as a general education credit, but after realizing
+        how much I enjoyed learning and understanding
+        programming topics,
+        i decided to persue a minor in the feild.</p>
+      </div>
+    </div>
+  </section>
 
 </body>
-<script src="JS/Slider.js"></script>
 
 <script>
     function openSlideMenu(){
