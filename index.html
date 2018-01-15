@@ -10,17 +10,17 @@
 <body>
   <nav class="navbar">
 
-    <!--
+
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-            <path d="M0,23 30,23" strokSe="#000" stroke-width="5"/>
+            <path d="M0,5 30,5" stroke="#f2f2f2" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#f2f2f2" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#f2f2f2" stroke-width="5"/>
         </svg>
       </a>
     </span>
-  -->
+
 
 
 
@@ -31,6 +31,14 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
 
   <div class="wrap">
     <div id="arrow-left" class="arrow"></div>
@@ -64,4 +72,16 @@
 
 </body>
 <script src="JS/Slider.js"></script>
+
+<script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
 </html>
