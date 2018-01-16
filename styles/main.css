@@ -113,6 +113,7 @@ body{
 }
 
 .slide-content span {
+  padding-top: 50px;
   font-size: 5rem;
   color: #f4f4f4;
 }
@@ -160,19 +161,35 @@ body{
 }
 
 #boxes .box{
-	float:left;
+
+	text-align: center;
+	width:98%;
+	padding:10px;
+
+
+}
+
+#boxes .box img{
+	width: 300px;
+}
+
+#courseload .box{
+  float: left;
 	text-align: center;
 	width:30%;
 	padding:10px;
 
 }
 
-#boxes .box img{
-	width: 200px;
+.courseList{
+
+  text-align: center;
+  padding-right: 40px;
 }
 
-@media(max-width:568px){
+@media(max-width:620px){
   .navbar-nav{display:none}
+  .slide-content span{font-size: 3rem}
 }
 
 @media(min-width:568px){
