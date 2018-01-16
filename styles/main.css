@@ -173,7 +173,11 @@ body{
 	width: 300px;
 }
 
-#courseload .box{
+#column{
+  margin-top: 20px;
+}
+
+#column .box{
   float: left;
 	text-align: center;
 	width:30%;
@@ -186,6 +190,22 @@ body{
   text-align: center;
   padding-right: 40px;
 }
+
+.emailBtn{
+  height: 38px;
+	background: #bf9b30;
+  border-style: dashed;
+  margin-top: 25px;
+	padding-left:20px;
+	padding-right: 20px;
+	color:#f4f4f4;
+}
+
+.emailBtn:hover{
+  background: #000080;
+}
+
+
 
 @media(max-width:620px){
   .navbar-nav{display:none}
