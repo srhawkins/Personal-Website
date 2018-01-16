@@ -213,11 +213,12 @@ body{
   #column .box{
     width: 50%;
     margin-left: 25%;
-    margin-right: 25;
+    margin-right: 25%;
     }
-  #boxes .box{
-
-
+  .contact .box{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
 
