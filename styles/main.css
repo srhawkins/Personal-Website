@@ -209,10 +209,21 @@ body{
 
 @media(max-width:620px){
   .navbar-nav{display:none}
-  .slide-content span{font-size: 3rem}
+  .slide-content span{font-size: 2.25rem}
+  #column .box{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25;
+    }
+  #boxes .box{
+
+
+  }
+
+
 }
 
-@media(min-width:568px){
+@media(min-width:620px){
   .open-slide{display:none}
 }
 

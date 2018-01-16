@@ -10,7 +10,6 @@
 <body>
   <nav class="navbar">
 
-
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
@@ -20,9 +19,6 @@
         </svg>
       </a>
     </span>
-
-
-
 
     <ul class="navbar-nav">
       <li><a href="index.html">Home</a></li>
@@ -39,7 +35,6 @@
     <a href="education.html">Education</a>
     <a href="#">Contact</a>
   </div>
-
 
 
   <section id="column">
@@ -78,4 +73,16 @@
   </section>
 
 </body>
+
+<script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
 </html>
